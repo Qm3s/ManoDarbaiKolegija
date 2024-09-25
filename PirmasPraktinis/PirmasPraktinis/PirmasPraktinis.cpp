@@ -1,5 +1,7 @@
-﻿using namespace std;
-#include <iostream>
+﻿#include <iostream>
+#include <iomanip> 
+
+using namespace std;
 
 int main()
 {
@@ -20,7 +22,7 @@ int main()
     char pakartoti;
     do
     {
-
+        cout << fixed << setprecision(2); // Устанавливаем вывод с двумя знаками после запятой
 
         cout << "\nLaba diena, programma pades jums konvertuoti eur i kitas valiutas skirtingais budais\n" << endl;
 
@@ -29,7 +31,6 @@ int main()
 
         cout << "Pasirinkite valiuta:(1.2.3)\n GPB,USD,INR." << endl;
         cin >> valiutos_pasirinkimas;
-
 
         string valiuta;
         switch (valiutos_pasirinkimas)
@@ -98,16 +99,14 @@ int main()
                 switch (valiutos_pasirinkimas)
                 {
                 case 1:
-                    cout << value << " EUR = " << value * GBP_Bendras << "GBP";
+                    cout << value << " EUR = " << value * GBP_Bendras << " GBP";
                     break;
                 case 2:
-                    cout << value << " EUR = " << value * USD_Bendras << "USD";
+                    cout << value << " EUR = " << value * USD_Bendras << " USD";
                     break;
                 case 3:
-                    cout << value << " EUR = " << value * INR_Bendras << "INR";
+                    cout << value << " EUR = " << value * INR_Bendras << " INR";
                     break;
-
-
                 }
             }
             else if (EURtoAnother == 2)
@@ -115,23 +114,20 @@ int main()
                 switch (valiutos_pasirinkimas)
                 {
                 case 1:
-                    cout << value << valiuta << " = " << value / GBP_Bendras << "EUR";
+                    cout << value << " " << valiuta << " = " << value / GBP_Bendras << " EUR";
                     break;
                 case 2:
-                    cout << value << valiuta << " = " << value / USD_Bendras << "EUR";
+                    cout << value << " " << valiuta << " = " << value / USD_Bendras << " EUR";
                     break;
                 case 3:
-                    cout << value << valiuta << " = " << value / INR_Bendras << "EUR";
+                    cout << value << " " << valiuta << " = " << value / INR_Bendras << " EUR";
                     break;
                 }
             }
         }
 
-
         cout << "\n\nAr norite atlikti kitas operacijas?\n1.Taip\n2.Ne" << endl;
         cin >> pakartoti;
-
-
 
     } while (pakartoti == '1');
 

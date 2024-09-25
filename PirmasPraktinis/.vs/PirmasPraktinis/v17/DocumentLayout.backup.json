@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\edgar\\Desktop\\1\\PirmasPraktinis\\",
+  "WorkspaceRootPath": "C:\\Users\\edgar\\Desktop\\Mano Projektai StP\\PirmasPraktinis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBA969B7-4650-4EF1-82AC-E2F7CE5BED09}|PirmasPraktinis\\PirmasPraktinis.vcxproj|C:\\Users\\edgar\\Desktop\\1\\PirmasPraktinis\\PirmasPraktinis\\PirmasPraktinis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EBA969B7-4650-4EF1-82AC-E2F7CE5BED09}|PirmasPraktinis\\PirmasPraktinis.vcxproj|C:\\Users\\edgar\\Desktop\\Mano Projektai StP\\PirmasPraktinis\\PirmasPraktinis\\PirmasPraktinis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EBA969B7-4650-4EF1-82AC-E2F7CE5BED09}|PirmasPraktinis\\PirmasPraktinis.vcxproj|solutionrelative:PirmasPraktinis\\PirmasPraktinis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PirmasPraktinis.cpp",
-              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\1\\PirmasPraktinis\\PirmasPraktinis\\PirmasPraktinis.cpp",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Mano Projektai StP\\PirmasPraktinis\\PirmasPraktinis\\PirmasPraktinis.cpp",
               "RelativeDocumentMoniker": "PirmasPraktinis\\PirmasPraktinis.cpp",
-              "ToolTip": "C:\\Users\\edgar\\Desktop\\1\\PirmasPraktinis\\PirmasPraktinis\\PirmasPraktinis.cpp",
-              "RelativeToolTip": "PirmasPraktinis\\PirmasPraktinis.cpp",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAwwG8AAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Mano Projektai StP\\PirmasPraktinis\\PirmasPraktinis\\PirmasPraktinis.cpp*",
+              "RelativeToolTip": "PirmasPraktinis\\PirmasPraktinis.cpp*",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T21:40:00.705Z",
               "EditorCaption": ""
