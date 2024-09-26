@@ -22,7 +22,7 @@ int main()
     char pakartoti;
     do
     {
-        cout << fixed << setprecision(2); // Устанавливаем вывод с двумя знаками после запятой
+        cout << fixed << setprecision(2); 
 
         cout << "\nLaba diena, programma pades jums konvertuoti eur i kitas valiutas skirtingais budais\n" << endl;
 
@@ -76,13 +76,13 @@ int main()
             switch (valiutos_pasirinkimas)
             {
             case 1:
-                cout << "Jus pardavet " << value << " GBP uz " << value / GBP_Parduoti;
+                cout << "Jus pardavet " << value << " GBP uz " << value / GBP_Parduoti << "Eur";
                 break;
             case 2:
-                cout << "Jus pardavet " << value << " USD uz " << value / USD_Parduoti;
+                cout << "Jus pardavet " << value << " USD uz " << value / USD_Parduoti << "Eur";
                 break;
             case 3:
-                cout << "Jus pardavet " << value << " INR uz " << value / INR_Parduoti;
+                cout << "Jus pardavet " << value << " INR uz " << value / INR_Parduoti << "Eur";
                 break;
             }
         }
