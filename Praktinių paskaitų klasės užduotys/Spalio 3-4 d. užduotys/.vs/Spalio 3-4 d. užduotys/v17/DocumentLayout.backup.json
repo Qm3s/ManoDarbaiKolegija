@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\s056165\\Desktop\\New folder\\ManoDarbaiKolegija\\Praktini\u0173 paskait\u0173 klas\u0117s u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7460AA38-20C8-4352-8F92-578BC83D1102}|..\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys.vcxproj|C:\\Users\\s056165\\Desktop\\New folder\\ManoDarbaiKolegija\\Praktini\u0173 paskait\u0173 klas\u0117s u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7460AA38-20C8-4352-8F92-578BC83D1102}|..\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys.vcxproj|solutionrelative:Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Spalio 3-4 d. u\u017Eduotys.cpp",
+              "DocumentMoniker": "C:\\Users\\s056165\\Desktop\\New folder\\ManoDarbaiKolegija\\Praktini\u0173 paskait\u0173 klas\u0117s u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys.cpp",
+              "RelativeDocumentMoniker": "Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys.cpp",
+              "ToolTip": "C:\\Users\\s056165\\Desktop\\New folder\\ManoDarbaiKolegija\\Praktini\u0173 paskait\u0173 klas\u0117s u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys.cpp*",
+              "RelativeToolTip": "Spalio 3-4 d. u\u017Eduotys\\Spalio 3-4 d. u\u017Eduotys.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-03T11:48:22.266Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
