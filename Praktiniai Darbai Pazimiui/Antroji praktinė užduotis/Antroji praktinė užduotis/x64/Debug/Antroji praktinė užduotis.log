@@ -1,2 +1,4 @@
 ﻿  Antroji praktinė užduotis.cpp
-  Antroji praktinė užduotis.vcxproj -> C:\Users\s056165\Desktop\New folder\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Antroji praktinė užduotis\x64\Debug\Antroji praktinė užduotis.exe
+C:\Users\edgar\Desktop\Mano Projektai StP\Praktiniai Darbai Pazimiui\Antroji praktinė užduotis\Antroji praktinė užduotis\Antroji praktinė užduotis.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\edgar\Desktop\Mano Projektai StP\Praktiniai Darbai Pazimiui\Antroji praktinė užduotis\Antroji praktinė užduotis\Antroji praktinė užduotis.cpp(75,11): warning C4566: символ, представленный универсальным именем символа "\u017E", невозможно представить в текущей кодовой странице (1251)
+  Antroji praktinė užduotis.vcxproj -> C:\Users\edgar\Desktop\Mano Projektai StP\Praktiniai Darbai Pazimiui\Antroji praktinė užduotis\x64\Debug\Antroji praktinė užduotis.exe

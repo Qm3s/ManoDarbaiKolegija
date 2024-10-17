@@ -4,7 +4,18 @@
 #include <iostream>
 using namespace std;
 
+// pagrindas
+void print(string word) {
+	cout << word;
+}
+int getRandomNumber() {
+	srand(time(nullptr));
+	int randomNum = rand() % 10 + 1;
+	return randomNum;
+}
+
 // FUNKCIJOS
+
 //Funkcija 1 
 bool arBalsis(char raide) {
 	bool balsis = false;
@@ -22,9 +33,30 @@ bool arBalsis(char raide) {
 	}
 	return balsis;
 }
+
 //Funkcija 2
-
-
+void zaidimas() {
+	int teisingas_ats = getRandomNumber();
+	int vartotojo_ats;
+	print("Jums reikia atspet skaicu tarp 1 ir 10 (imtinai)\n");
+	do
+	{
+		cin >> vartotojo_ats;
+		if (vartotojo_ats < teisingas_ats)
+		{
+			print("Jusu atsakimas mazesnis negu reikia\n");
+		}
+		else if (vartotojo_ats > teisingas_ats)
+		{
+			print("Jusu atsakimas didesnis negu reikia\n");
+		}
+		else
+		{
+			print("Sveikinu jus laimejot!");
+		}
+	} while (vartotojo_ats != teisingas_ats);
+	
+}
 
 
 
@@ -41,7 +73,7 @@ int main()
 	{
 
 
-		cout << "Issirinkite viena is 4 funkciju:\n1.Balse ar ne.\n2.Didžiausias bendras daliklis\n3.Trecia Funkcija.\n4.Ketvirta funkcija\n5.Iseiti is proramos." << endl;
+		cout << "Issirinkite viena is 4 funkciju:\n1.Balse ar ne.\n2.Didžiausias bendras daliklis\n3.Atspek skaiciu.\n4.Ketvirta funkcija\n5.Iseiti is proramos." << endl;
 		cin >> funkcija;
 
 
@@ -72,13 +104,13 @@ int main()
 			cout << "issirinkta " << pasirinkimas << " funkcija\n" << endl;
 			break;
 		case 2:
-			cout << "issirinkta ir atlikta " << pasirinkimas << " funkcijan\n" << endl;
+			cout << "issirinkta " << pasirinkimas << " funkcija\n" << endl;
 			break;
 		case 3:
-			cout << "issirinkta ir atlikta " << pasirinkimas << " funkcija\n" << endl;
+			cout << "issirinkta " << pasirinkimas << " funkcija\n" << endl;
 			break;
 		case 4:
-			cout << "issirinkta ir atlikta " << pasirinkimas << " funkcija\n" << endl;
+			cout << "issirinkta " << pasirinkimas << " funkcija\n" << endl;
 			break;
 		case 5:
 			cout << "Viso gero" << endl;
@@ -102,6 +134,11 @@ int main()
 		if (funkcija == 2)
 		{
 
+		}
+		if (funkcija == 3)
+		{
+			zaidimas();
+			cout << "\n" << endl;
 		}
 	}
 }
