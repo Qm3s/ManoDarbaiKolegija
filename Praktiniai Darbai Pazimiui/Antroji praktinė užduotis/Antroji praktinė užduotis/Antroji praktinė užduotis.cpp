@@ -4,17 +4,25 @@
 #include <iostream>
 using namespace std;
 
-// Finkcijos
+// FUNKCIJOS
+//Funkcija 1 
 bool arBalsis(char raide) {
 	bool balsis = false;
-	switch (raide)
-	{
-	
-
-
+	switch (raide) {
+	case 'a':
+	case 'e':
+	case 'i':
+	case 'o':
+	case 'u':
+		balsis = true;
+		break;
+	default:
+		balsis = false;
+		break;
 	}
-
+	return balsis;
 }
+//Funkcija 2
 
 
 
@@ -33,7 +41,7 @@ int main()
 	{
 
 
-		cout << "Issirinkite viena is 4 funkciju:\n1.Pirma funkcija.\n2.Antra funkcija\n3.Trecia Funkcija.\n4.Ketvirta funkcija\n5.Iseiti is proramos." << endl;
+		cout << "Issirinkite viena is 4 funkciju:\n1.Balse ar ne.\n2.Didžiausias bendras daliklis\n3.Trecia Funkcija.\n4.Ketvirta funkcija\n5.Iseiti is proramos." << endl;
 		cin >> funkcija;
 
 
@@ -78,6 +86,20 @@ int main()
 		}
 
 		if (funkcija == 1)
+		{
+			char raide;
+			cout << "iveskite raide ";
+			cin >> raide;
+
+			if (arBalsis(raide)) {
+				cout << "Ivestas simbolis yra balsis.\n";
+			}
+			else {
+				cout << "Ivestas simbolis nera balsis.\n";
+
+			}
+		}
+		if (funkcija == 2)
 		{
 
 		}
