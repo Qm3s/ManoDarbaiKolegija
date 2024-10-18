@@ -14,8 +14,9 @@ int getRandomNumber() {
 	return randomNum;
 }
 
-// FUNKCIJOS
 
+
+// FUNKCIJOS
 //Funkcija 1 
 bool arBalsis(char raide) {
 	bool balsis = false;
@@ -35,6 +36,18 @@ bool arBalsis(char raide) {
 }
 
 //Funkcija 2
+int bendr_dal(int skaicius1, int skaicius2) {
+	while (skaicius2 != 0) {
+		int temp = skaicius2;
+		skaicius2 = skaicius1 % skaicius2;
+		skaicius1 = temp;
+	}
+	return skaicius1;
+}
+
+
+
+//Funkcija 3
 void zaidimas() {
 	int teisingas_ats = getRandomNumber();
 	int vartotojo_ats;
@@ -52,14 +65,37 @@ void zaidimas() {
 		}
 		else
 		{
-			print("Sveikinu jus laimejot!");
+			printf("Sveikinu jus laimejot!");
 		}
 	} while (vartotojo_ats != teisingas_ats);
-	
+
 }
 
 
-
+//Funkcija 4
+void fizzbuzz(int number) {
+	for ( int i = 1; i <= number; i++)
+	{
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			cout << i << " FizzBuzz\n";
+			
+		}
+		else if (i % 3 == 0)
+		{
+			cout << i << " Fizz\n";
+			
+		}
+		else if (i % 5 == 0)
+		{
+			cout << i << " Buzz\n";
+		}
+		else
+		{
+			cout << i << "\n";
+		}
+	}
+}
 
 
 
@@ -73,7 +109,7 @@ int main()
 	{
 
 
-		cout << "Issirinkite viena is 4 funkciju:\n1.Balse ar ne.\n2.Didžiausias bendras daliklis\n3.Atspek skaiciu.\n4.Ketvirta funkcija\n5.Iseiti is proramos." << endl;
+		cout << "Issirinkite viena is 4 funkciju:\n1.Balse ar ne.\n2.Didziausias bendras daliklis\n3.Atspek skaiciu.\n4.FizzBuzz\n5.Iseiti is proramos." << endl;
 		cin >> funkcija;
 
 
@@ -110,10 +146,10 @@ int main()
 			cout << "issirinkta " << pasirinkimas << " funkcija\n" << endl;
 			break;
 		case 4:
-			cout << "issirinkta " << pasirinkimas << " funkcija\n" << endl;
+			cout << "issirinkta " << pasirinkimas << " funkcija\n" << endl;    
 			break;
 		case 5:
-			cout << "Viso gero" << endl;
+			cout << "Viso gero" << endl;      // cia isejims is programos
 			return 0;
 		}
 
@@ -133,12 +169,27 @@ int main()
 		}
 		if (funkcija == 2)
 		{
-
+			int skaicius1, skaicius2;
+			print("Iveskite 1 skaciu\n");
+			cin >> skaicius1;
+			print("Iveskite 2 skaiciu\n");
+			cin >> skaicius2;
+			int result = bendr_dal(skaicius1, skaicius2);
+			cout << "Bendras dalyklis - " << result << "\n\n";
 		}
 		if (funkcija == 3)
 		{
 			zaidimas();
 			cout << "\n" << endl;
+		}
+		if (funkcija == 4)
+		{
+			print("Iveskite skaiciu\n");
+			int number;
+			cin >> number;
+			cout << "\n";
+			fizzbuzz(number);
+			cout << "\n";
 		}
 	}
 }
