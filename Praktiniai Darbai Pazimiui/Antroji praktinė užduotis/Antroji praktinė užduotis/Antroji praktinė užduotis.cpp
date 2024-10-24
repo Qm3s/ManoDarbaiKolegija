@@ -7,10 +7,11 @@ using namespace std;
 // pagrindas
 void print(string word) {
 	cout << word;
+	
 }
 int getRandomNumber() {
 	srand(time(nullptr));
-	int randomNum = rand() % 10 + 1;
+	int randomNum = rand() % 100 + 1;
 	return randomNum;
 }
 
@@ -51,7 +52,7 @@ int bendr_dal(int skaicius1, int skaicius2) {
 void zaidimas() {
 	int teisingas_ats = getRandomNumber();
 	int vartotojo_ats;
-	print("Jums reikia atspet skaicu tarp 1 ir 10 (imtinai)\n");
+	print("Jums reikia atspet skaicu tarp 1 ir 100 (imtinai)\n");
 	do
 	{
 		cin >> vartotojo_ats;
@@ -175,6 +176,10 @@ int main()
 			print("Iveskite 2 skaiciu\n");
 			cin >> skaicius2;
 			int result = bendr_dal(skaicius1, skaicius2);
+			if (result == 1)
+			{
+				print("Nera bendro daliklio");
+			}
 			cout << "Bendras dalyklis - " << result << "\n\n";
 		}
 		if (funkcija == 3)
