@@ -69,98 +69,106 @@ string Desifruoti_is_ASCII(string tekstas, int key) {
     return rezultatas;
 
 }
-
+char testi;
 
 int main() {
-    cout << "Pasirinkite finkcija" << endl;
-    cout << "1. Vigenere algoritmas" << endl;
-    cout << "2. ASCII" << endl;
-    int pasirinkimas;
-    cin >> pasirinkimas;
-
-    if (pasirinkimas == 1)
+    while (true)
     {
-        int metodas;
-        cout << "Sifravimas ar desifravimas?" << endl;
-        cout << "1. Sifraviamas" << endl;
-        cout << "2. Desifravimas" << endl;
-        cin >> metodas;
-        if (metodas == 1)
+
+
+        cout << "Pasirinkite finkcija" << endl;
+        cout << "1. Vigenere algoritmas" << endl;
+        cout << "2. ASCII" << endl;
+        cout << "3. Iseiti" << endl;
+        int pasirinkimas;
+        cin >> pasirinkimas;
+        if (pasirinkimas==3)
         {
-            string tekstas;
-            string raktas;
-
-            cout << "Ivesakite teksta: ";
-            cin >> tekstas;
-            cout << "Iveskite rakta: ";
-            cin >> raktas;
-            
-            for (int i = 0; i < raktas.length(); i++)
-            {
-                raktas[i] = toupper(raktas[i]);
-
-            }
-            for (int i = 0; i < tekstas.length(); i++)
-            {
-                tekstas[i] = toupper(tekstas[i]);
-            }
-
-            string rezultatas = sifruotitexsta(tekstas, raktas);
-            cout << "Sifruotas tekstas: " << rezultatas << endl;
+            cout << "Viso gero" << endl;
+            return 0;
         }
-        if (metodas == 2)
+        if (pasirinkimas == 1)
         {
-            string tekstas;
-            string raktas;
-
-            cout << "Ivesakite teksta: ";
-            cin >> tekstas;
-            cout << "Iveskite rakta: ";
-            cin >> raktas;
-
-            for (int i = 0; i < raktas.length(); i++)
+            int metodas;
+            cout << "Sifravimas ar desifravimas?" << endl;
+            cout << "1. Sifraviamas" << endl;
+            cout << "2. Desifravimas" << endl;
+            cin >> metodas;
+            if (metodas == 1)
             {
-                raktas[i] = toupper(raktas[i]);
+                string tekstas;
+                string raktas;
 
+                cout << "Ivesakite teksta: ";
+                cin >> tekstas;
+                cout << "Iveskite rakta: ";
+                cin >> raktas;
+
+                for (int i = 0; i < raktas.length(); i++)
+                {
+                    raktas[i] = toupper(raktas[i]);
+
+                }
+                for (int i = 0; i < tekstas.length(); i++)
+                {
+                    tekstas[i] = toupper(tekstas[i]);
+                }
+
+                string rezultatas = sifruotitexsta(tekstas, raktas);
+                cout << "Sifruotas tekstas: " << rezultatas << endl;
             }
-            for (int i = 0; i < tekstas.length(); i++)
+            if (metodas == 2)
             {
-                tekstas[i] = toupper(tekstas[i]);
-            }
+                string tekstas;
+                string raktas;
 
-            string rezultatas = desifruotitexsta(tekstas, raktas);
-            cout << "Disifruotas tekstas: " << rezultatas << endl;
+                cout << "Ivesakite teksta: ";
+                cin >> tekstas;
+                cout << "Iveskite rakta: ";
+                cin >> raktas;
+
+                for (int i = 0; i < raktas.length(); i++)
+                {
+                    raktas[i] = toupper(raktas[i]);
+
+                }
+                for (int i = 0; i < tekstas.length(); i++)
+                {
+                    tekstas[i] = toupper(tekstas[i]);
+                }
+
+                string rezultatas = desifruotitexsta(tekstas, raktas);
+                cout << "Disifruotas tekstas: " << rezultatas << endl;
+            }
+        }
+        if (pasirinkimas == 2)
+        {
+            int metodas;
+            cout << "Sifravimas ar desifravimas?" << endl;
+            cout << "1. Sifraviamas" << endl;
+            cout << "2. Desifravimas" << endl;
+            cin >> metodas;
+            if (metodas == 1)
+            {
+                string tekstas;
+                int key;
+                cout << "Iveskite teksta: ";
+                cin >> tekstas;
+                cout << "Iveskite rakta: ";
+                cin >> key;
+                cout << Sifruoti_to_ASCII(tekstas, key);
+            }
+            if (metodas == 2)
+            {
+                string tekstas;
+                int key;
+                cout << "Iveskite teksta: ";
+                cin >> tekstas;
+                cout << "Iveskite rakta: ";
+                cin >> key;
+                cout << Desifruoti_is_ASCII(tekstas, key);
+            }
         }
     }
-    if (pasirinkimas == 2)
-    {
-        int metodas;
-        cout << "Sifravimas ar desifravimas?" << endl;
-        cout << "1. Sifraviamas" << endl;
-        cout << "2. Desifravimas" << endl;
-        cin >> metodas;
-        if (metodas==1)
-        {
-            string tekstas;
-            int key;
-            cout << "Iveskite teksta: ";
-            cin >> tekstas;
-            cout << "Iveskite rakta: ";
-            cin >> key;
-            cout << Sifruoti_to_ASCII(tekstas, key);
-        }
-        if (metodas==2)
-        {
-            string tekstas;
-            int key;
-            cout << "Iveskite teksta: ";
-            cin >> tekstas;
-            cout << "Iveskite rakta: ";
-            cin >> key;
-            cout << Desifruoti_is_ASCII(tekstas, key);
-        }
-        
-    }
-
-
+    
 }

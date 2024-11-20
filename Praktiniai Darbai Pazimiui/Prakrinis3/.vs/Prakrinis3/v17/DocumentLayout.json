@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\edgar\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakrinis3\\",
+  "WorkspaceRootPath": "C:\\Users\\edgar\\Desktop\\\u043F\u043F\u043F\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakrinis3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{282637AF-35A5-49E8-8B51-84AD94320941}|Prakrinis3\\Prakrinis3.vcxproj|C:\\Users\\edgar\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakrinis3\\Prakrinis3\\Prakrinis3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{282637AF-35A5-49E8-8B51-84AD94320941}|Prakrinis3\\Prakrinis3.vcxproj|C:\\Users\\edgar\\Desktop\\\u043F\u043F\u043F\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakrinis3\\Prakrinis3\\Prakrinis3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{282637AF-35A5-49E8-8B51-84AD94320941}|Prakrinis3\\Prakrinis3.vcxproj|solutionrelative:Prakrinis3\\Prakrinis3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -24,9 +24,9 @@
               "DocumentIndex": 1,
               "Title": "xstring",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
               "ViewState": "AgIAAMIIAAAAAAAAAAAMwM8IAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-20T18:12:21.865Z"
@@ -35,11 +35,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Prakrinis3.cpp",
-              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakrinis3\\Prakrinis3\\Prakrinis3.cpp",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\\u043F\u043F\u043F\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakrinis3\\Prakrinis3\\Prakrinis3.cpp",
               "RelativeDocumentMoniker": "Prakrinis3\\Prakrinis3.cpp",
-              "ToolTip": "C:\\Users\\edgar\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakrinis3\\Prakrinis3\\Prakrinis3.cpp",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\\u043F\u043F\u043F\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakrinis3\\Prakrinis3\\Prakrinis3.cpp",
               "RelativeToolTip": "Prakrinis3\\Prakrinis3.cpp",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAkwIEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwFcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-20T12:23:17.154Z",
               "EditorCaption": ""
