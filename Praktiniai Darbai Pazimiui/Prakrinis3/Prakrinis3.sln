@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prakrinis3", "Prakrinis3\Prakrinis3.vcxproj", "{282637AF-35A5-49E8-8B51-84AD94320941}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{282637AF-35A5-49E8-8B51-84AD94320941}.Debug|x64.ActiveCfg = Debug|x64
+		{282637AF-35A5-49E8-8B51-84AD94320941}.Debug|x64.Build.0 = Debug|x64
+		{282637AF-35A5-49E8-8B51-84AD94320941}.Debug|x86.ActiveCfg = Debug|Win32
+		{282637AF-35A5-49E8-8B51-84AD94320941}.Debug|x86.Build.0 = Debug|Win32
+		{282637AF-35A5-49E8-8B51-84AD94320941}.Release|x64.ActiveCfg = Release|x64
+		{282637AF-35A5-49E8-8B51-84AD94320941}.Release|x64.Build.0 = Release|x64
+		{282637AF-35A5-49E8-8B51-84AD94320941}.Release|x86.ActiveCfg = Release|Win32
+		{282637AF-35A5-49E8-8B51-84AD94320941}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10090D5D-2359-4EA5-BB29-2C9EF670CA11}
+	EndGlobalSection
+EndGlobal

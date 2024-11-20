@@ -1,3 +1,3 @@
 ﻿  Antroji praktinė užduotis.cpp
-C:\Users\s056165\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Antroji praktinė užduotis\Antroji praktinė užduotis\Antroji praktinė užduotis.cpp(13,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Antroji praktinė užduotis.vcxproj -> C:\Users\s056165\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Antroji praktinė užduotis\x64\Debug\Antroji praktinė užduotis.exe
+C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Antroji praktinė užduotis\Antroji praktinė užduotis\Antroji praktinė užduotis.cpp(13,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Antroji praktinė užduotis.vcxproj -> C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Antroji praktinė užduotis\x64\Debug\Antroji praktinė užduotis.exe

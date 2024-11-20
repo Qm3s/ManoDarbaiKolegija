@@ -1,3 +1,2 @@
 ﻿  PirmasPraktinis.cpp
-  LINK : C:\Users\s056165\Desktop\Struktura\ManoDarbaiKolegija\PirmasPraktinis\x64\Debug\PirmasPraktinis.exe not found or not built by the last incremental link; performing full link
-  PirmasPraktinis.vcxproj -> C:\Users\s056165\Desktop\Struktura\ManoDarbaiKolegija\PirmasPraktinis\x64\Debug\PirmasPraktinis.exe
+LINK : fatal error LNK1201: Ошибка при записи в базу данных "C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\PirmasPraktinis\x64\Debug\PirmasPraktinis.pdb" программы; возможно, не хватает места на диске, недопустимый путь или недостаточно прав
