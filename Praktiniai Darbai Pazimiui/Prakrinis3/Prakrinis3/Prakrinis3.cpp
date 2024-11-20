@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <string>
+#include <cctype>  
 using namespace std;
 
 const char abecele[] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
@@ -93,6 +94,16 @@ int main() {
             cin >> tekstas;
             cout << "Iveskite rakta: ";
             cin >> raktas;
+            
+            for (int i = 0; i < raktas.length(); i++)
+            {
+                raktas[i] = toupper(raktas[i]);
+
+            }
+            for (int i = 0; i < tekstas.length(); i++)
+            {
+                tekstas[i] = toupper(tekstas[i]);
+            }
 
             string rezultatas = sifruotitexsta(tekstas, raktas);
             cout << "Sifruotas tekstas: " << rezultatas << endl;
@@ -106,6 +117,16 @@ int main() {
             cin >> tekstas;
             cout << "Iveskite rakta: ";
             cin >> raktas;
+
+            for (int i = 0; i < raktas.length(); i++)
+            {
+                raktas[i] = toupper(raktas[i]);
+
+            }
+            for (int i = 0; i < tekstas.length(); i++)
+            {
+                tekstas[i] = toupper(tekstas[i]);
+            }
 
             string rezultatas = desifruotitexsta(tekstas, raktas);
             cout << "Disifruotas tekstas: " << rezultatas << endl;

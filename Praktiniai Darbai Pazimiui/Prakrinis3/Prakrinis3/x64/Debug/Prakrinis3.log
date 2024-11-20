@@ -1,7 +1,7 @@
 ﻿  Prakrinis3.cpp
-C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(26,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(34,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(53,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(62,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(15,1): warning C4715: simboliopozicija: значение возвращается не при всех путях выполнения
+C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(27,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(35,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(54,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(63,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\Prakrinis3\Prakrinis3.cpp(16,1): warning C4715: simboliopozicija: значение возвращается не при всех путях выполнения
   Prakrinis3.vcxproj -> C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakrinis3\x64\Debug\Prakrinis3.exe
