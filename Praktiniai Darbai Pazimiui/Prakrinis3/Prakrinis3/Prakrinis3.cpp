@@ -50,25 +50,29 @@ char ASCII_to_Simbol(int number) {
     char simbol = (char)number;
     return simbol;
 }
-string Sifruoti_to_ASCII(string tekstas, int key) {
-    int tekstoilgis = tekstas.length(); //тут можно сократить на самом деле до string rezultatas(tekstas.leght(), ' '); но мне так удобнее.
-    string rezultatas(tekstoilgis, ' ');
-    for (int i = 0; i < tekstoilgis; i++) {
-        rezultatas[i] = (Simbol_to_ASCII(tekstas[i]) + key);
-        rezultatas[i] = ASCII_to_Simbol(rezultatas[i]);
-    }
-    return rezultatas;
-}
-string Desifruoti_is_ASCII(string tekstas, int key) {
+string Sifruoti_to_ASCII(string tekstas, string raktas) {
     int tekstoilgis = tekstas.length();
     string rezultatas(tekstoilgis, ' ');
     for (int i = 0; i < tekstoilgis; i++) {
-        rezultatas[i] = (Simbol_to_ASCII(tekstas[i]) - key);
-        rezultatas[i] = ASCII_to_Simbol(rezultatas[i]);
+        int simbolisASCII = Simbol_to_ASCII(tekstas[i]);
+        int raktasASCII = Simbol_to_ASCII(raktas[i % raktas.length()]);
+        rezultatas[i] = ASCII_to_Simbol((simbolisASCII - 32 + raktasASCII) % 95 + 32);
     }
     return rezultatas;
-
 }
+
+string Desifruoti_is_ASCII(string tekstas, string raktas) {
+    int tekstoilgis = tekstas.length();
+    string rezultatas(tekstoilgis, ' ');
+    for (int i = 0; i < tekstoilgis; i++) {
+        int simbolisASCII = Simbol_to_ASCII(tekstas[i]);
+        int raktasASCII = Simbol_to_ASCII(raktas[i % raktas.length()]);
+        
+        rezultatas[i] = ASCII_to_Simbol((simbolisASCII - 32 - raktasASCII + 95) % 95 + 32);
+    }
+    return rezultatas;
+}
+
 char testi;
 
 int main() {
@@ -76,7 +80,7 @@ int main() {
     {
 
 
-        cout << "Pasirinkite finkcija" << endl;
+        cout << "\nPasirinkite finkcija" << endl;
         cout << "1. Vigenere algoritmas" << endl;
         cout << "2. ASCII" << endl;
         cout << "3. Iseiti" << endl;
@@ -151,22 +155,22 @@ int main() {
             if (metodas == 1)
             {
                 string tekstas;
-                int key;
+                string raktas;
                 cout << "Iveskite teksta: ";
                 cin >> tekstas;
                 cout << "Iveskite rakta: ";
-                cin >> key;
-                cout << Sifruoti_to_ASCII(tekstas, key);
+                cin >> raktas;
+                cout << Sifruoti_to_ASCII(tekstas, raktas) << endl;
             }
             if (metodas == 2)
             {
                 string tekstas;
-                int key;
+                string raktas;
                 cout << "Iveskite teksta: ";
                 cin >> tekstas;
                 cout << "Iveskite rakta: ";
-                cin >> key;
-                cout << Desifruoti_is_ASCII(tekstas, key);
+                cin >> raktas;
+                cout << Desifruoti_is_ASCII(tekstas, raktas) << endl;
             }
         }
     }
