@@ -1,4 +1,3 @@
 ﻿  Prakt4.cpp
-C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakt4\Prakt4\Prakt4.cpp(12,9): warning C4566: символ, представленный универсальным именем символа "\u0117", невозможно представить в текущей кодовой странице (1251)
-C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakt4\Prakt4\Prakt4.cpp(16,9): warning C4566: символ, представленный универсальным именем символа "\u010D", невозможно представить в текущей кодовой странице (1251)
-  Prakt4.vcxproj -> C:\Users\edgar\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakt4\x64\Debug\Prakt4.exe
+C:\Users\s056165\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakt4\Prakt4\Prakt4.cpp(67,16): warning C4101: 'price': unreferenced local variable
+  Prakt4.vcxproj -> C:\Users\s056165\Desktop\ManoDarbaiKolegija\Praktiniai Darbai Pazimiui\Prakt4\x64\Debug\Prakt4.exe
