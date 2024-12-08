@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <string>
-#include <vector>
+#include <iomanip>
 using namespace std;
 
 struct menuItemType {
@@ -31,6 +31,13 @@ menuItemOrder menuOrder[8] = {
 
 };
 
+void clearConsole() {
+    for (int i = 0; i < 100; i++) {
+        cout << endl;
+    }
+}
+
+
 void mainMenu() {
     
     
@@ -41,21 +48,27 @@ void mainMenu() {
 }
 
 void showMenu() {
+    clearConsole();
     cout << "------------------------------------------------" << endl;
     for (int i = 0; i < masyvo_dydis; i++)
     {
         cout << i + 1 << ". " << menuList[i].menuItem << " - $" << menuList[i].menuPrice << endl;
     }
     cout << "------------------------------------------------" << endl;
+    
 }
 void showOrder() {
     cout << "------------------------------------------------" << endl;
-    for (int i = 0; i < masyvo_dydis; i++)
-    {
-        cout << i + 1 << ". " << menuOrder[i].menuItem << " - $" << menuOrder[i].menuPrice << " - |" << menuOrder[i].amount << "|" << endl;
+    for (int i = 0; i < masyvo_dydis; i++) {
+        
+        if (menuOrder[i].amount > 0) {
+            cout << i + 1 << ". " << menuOrder[i].menuItem << " - $"
+                << menuOrder[i].menuPrice << " - |" << menuOrder[i].amount << "|" << endl;
+        }
     }
     cout << "------------------------------------------------" << endl;
 }
+
 
 void getDataToOrderMenu() {
     char oneMore = '1';  
@@ -63,8 +76,8 @@ void getDataToOrderMenu() {
 
     while (oneMore == '1') {  
 
+        showMenu();
         int choice;
-        double price;
         printf("Iveskite patiekalo pozicija: ");  
         cin >> choice;
         printf("\nIveskite kiek noresit: ");  
@@ -76,20 +89,34 @@ void getDataToOrderMenu() {
         menuOrder[i].menuPrice = menuList[choice - 1].menuPrice;
         menuOrder[i].amount = amount;
 
+        clearConsole();
         printf("Sekmingai prideta\n"); 
         showOrder();
 
         i++;  
 
-        printf("%d IIII\n", i);  
-
-        
         printf("Ar noresit pridet dar kaz-ka? \n1.Yes 2.No\n");
         cin >> oneMore;
+        clearConsole();
     }
+    
 }
 
 void howMuch() {
+    printf("Jusu uzsakimas:\n");
+    showOrder();
+    cout << "------------------------------------------------" << endl;
+    double mainPrice = 0;
+    for (int i = 0; i < masyvo_dydis; i++)
+    {
+        mainPrice = mainPrice + menuOrder[i].menuPrice * menuOrder[i].amount;
+    }
+    cout << fixed << setprecision(2);
+    cout << "Kaina be mokesciu - " << mainPrice << "EUR" << endl;
+    cout << "Mokesciai - " << mainPrice * 0.21 << "EUR" << endl;
+    cout << "Galutine kaina - " << mainPrice + mainPrice * 0.21 << "EUR" << endl;
+    cout << "------------------------------------------------" << endl;
+    
 
 }
 
@@ -114,11 +141,16 @@ int main()
         }
         if (operacija == 2)
         {
-            showMenu();
+            
             getDataToOrderMenu();
             showOrder();
         }
-    
+        if (operacija == 3)
+        {
+            clearConsole();
+            howMuch();
+            return 0;
+        }
     
     
     
