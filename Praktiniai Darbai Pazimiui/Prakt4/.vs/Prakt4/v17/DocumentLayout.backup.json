@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\edgar\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakt4\\",
+  "WorkspaceRootPath": "C:\\Users\\s056165\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakt4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BC7C481-44B2-45D2-AFD4-0830D2CA1E17}|Prakt4\\Prakt4.vcxproj|C:\\Users\\edgar\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakt4\\Prakt4\\Prakt4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0BC7C481-44B2-45D2-AFD4-0830D2CA1E17}|Prakt4\\Prakt4.vcxproj|C:\\Users\\s056165\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakt4\\Prakt4\\Prakt4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0BC7C481-44B2-45D2-AFD4-0830D2CA1E17}|Prakt4\\Prakt4.vcxproj|solutionrelative:Prakt4\\Prakt4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Prakt4.cpp",
-              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakt4\\Prakt4\\Prakt4.cpp",
+              "DocumentMoniker": "C:\\Users\\s056165\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakt4\\Prakt4\\Prakt4.cpp",
               "RelativeDocumentMoniker": "Prakt4\\Prakt4.cpp",
-              "ToolTip": "C:\\Users\\edgar\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakt4\\Prakt4\\Prakt4.cpp*",
+              "ToolTip": "C:\\Users\\s056165\\Desktop\\ManoDarbaiKolegija\\Praktiniai Darbai Pazimiui\\Prakt4\\Prakt4\\Prakt4.cpp*",
               "RelativeToolTip": "Prakt4\\Prakt4.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-27T15:09:44.172Z",
               "EditorCaption": ""

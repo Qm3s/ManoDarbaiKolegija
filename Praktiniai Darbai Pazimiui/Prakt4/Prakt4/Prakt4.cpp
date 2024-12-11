@@ -1,10 +1,12 @@
 ﻿#include <iostream>
 #include <string>
 #include <iomanip>
+#include <fstream>
 using namespace std;
 
+
 struct menuItemType {
-    std::string menuItem;
+    string menuItem;
     double menuPrice;
 };
 int const masyvo_dydis = 8;
@@ -73,13 +75,19 @@ void showOrder() {
 void getDataToOrderMenu() {
     char oneMore = '1';  
     int i = 0; 
+    int choice = 1;
 
-    while (oneMore == '1') {  
+    while (choice != 0) {  
 
         showMenu();
-        int choice;
-        printf("Iveskite patiekalo pozicija: ");  
+        
+        printf("Iveskite patiekalo pozicija ( '0' kad iseiti ) : ");
         cin >> choice;
+        if (choice == 0)
+        {
+            break;
+        }
+        
         printf("\nIveskite kiek noresit: ");  
         int amount;
         cin >> amount;
@@ -95,8 +103,8 @@ void getDataToOrderMenu() {
 
         i++;  
 
-        printf("Ar noresit pridet dar kaz-ka? \n1.Yes 2.No\n");
-        cin >> oneMore;
+       
+        
         clearConsole();
     }
     
@@ -116,9 +124,40 @@ void howMuch() {
     cout << "Mokesciai - " << mainPrice * 0.21 << "EUR" << endl;
     cout << "Galutine kaina - " << mainPrice + mainPrice * 0.21 << "EUR" << endl;
     cout << "------------------------------------------------" << endl;
-    
+   
+        ofstream Failas("Ataskaita.txt");
 
-}
+        
+            
+            Failas << "=============== RESTORANAS ===========" << endl;
+            
+
+            for (int i = 0; i < masyvo_dydis; i++) {
+
+                if (menuOrder[i].amount > 0) {
+                    Failas << i + 1 << ". " << menuOrder[i].menuItem << " - $"
+                        << menuOrder[i].menuPrice << " - |" << menuOrder[i].amount << "|" << endl;
+                }
+            }
+            Failas << "------------------------------------------------" << endl;
+
+            Failas << fixed << setprecision(2);
+            Failas << "Kaina be mokesciu - " << mainPrice << "EUR" << endl;
+            Failas << "Mokesciai - " << mainPrice * 0.21 << "EUR" << endl;
+            Failas << "Galutine kaina - " << mainPrice + mainPrice * 0.21 << "EUR" << endl;
+            Failas << "------------------------------------------------" << endl;
+            
+            
+            Failas.close();
+            cout << "Failas 'Ataskaita.txt' paruostas" << endl;
+        
+        
+
+       
+    }
+
+
+
 
 
 
@@ -126,7 +165,7 @@ void howMuch() {
 
 int main()
 { 
-    cout << "Laba diena, pasirinkite funkcija:" << endl;
+    cout << "=======RESTORANAS===" << endl;
     while (true)
     {
 
